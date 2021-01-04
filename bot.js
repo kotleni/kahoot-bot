@@ -15,7 +15,7 @@ function addPlayer() {
     client.join(args[2], randName); // отправить запрос на подключение
 
     client.on("Joined", () => { // если удачно подключился
-      console.log("(" + randName + ") " + "Уданое подключение!");
+      console.log("(" + randName + ") " + "Удачное подключение!");
     });
 
     client.on("QuizStart", () => { // игра началась
